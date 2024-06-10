@@ -1,2 +1,4 @@
 # Improved-YOLOv5
 Target Detection Algorithm for Walnuts Based on Improved YOLOv5 and X-ray Imaging
+
+This study proposes a walnut target detection algorithm based on improved YOLOv5 and X-ray imaging to meet the demand for internal quality detection and removal in the Xinjiang walnut industry. By replacing the C3 module in the Backbone layer with the C2f module and the Couple-Head in the Head layer with the Decouple-Head, the algorithm reduces computational complexity, enhances robustness and generalization ability, and retains more spatial information, thereby improving the performance of multi-category small target detection. Additionally, this paper replaces the original CIOU loss function with the EIOU loss function to improve the convergence speed of the algorithm's accuracy and boundary aspect ratio.
